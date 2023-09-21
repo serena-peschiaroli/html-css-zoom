@@ -22,7 +22,7 @@ header {
     background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
     min-height: 3rem;
     color: white;
     position: relative;
@@ -54,20 +54,25 @@ header {
 }
 
 .card-container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto; 
+    /* max-width: 1100px;*/
     padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     height: 100vh;
     background-color: black;
     border: 1px solid white;
+    
 }
 
 .row {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.5rem;
+    justify-content: center;
+    
     
 
     
@@ -78,7 +83,7 @@ header {
    
 }
 .cards  {
-    width: calc(100% / 7 );
+    width: calc(100% / 7 - 1rem );
 
 }
 
