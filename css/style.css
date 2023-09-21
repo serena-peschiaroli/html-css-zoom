@@ -3,3 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    color: white;
+    background-color: black;
+}
+img {
+    width: 100%;
+}
+
+header {
+    color: white;
+}
+
+.head-container {
+    padding-top: 0.5rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    min-height: 3rem;
+    color: white;
+    position: relative;
+}
+
+.head-nav {
+    font-size: 0.8rem;
+    display: flex;
+    gap: 0.5rem;
+    position: absolute;
+    right: 10px; 
+
+}
+.speaker-view {
+    height: 1rem;
+    width: 6rem;
+    background-color: grey;
+    color: white;
+    border-radius: 10%;
+   text-align: center;
+}
+.expand {
+    height: 1rem;
+    width: 2rem;
+    background-color: grey;
+    border-radius: 10%;
+    text-align: center;
+
+}
+
+.card-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 3rem;
+    height: 100vh;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+
+    
+}
+
+.card {
+    position: relative;
+   
+}
+.cards  {
+    width: calc(100% / 7 );
+
+}
+
+
+
+.name {
+    height: 1.2rem;
+    width: fit-content;
+    background-color: rgba(148, 146, 146, 0.49);
+    font-size: 0.8rem;
+    text-align: center;
+    position: absolute;
+    bottom: 1px ;
+
+}
